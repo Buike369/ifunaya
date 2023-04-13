@@ -1,0 +1,143 @@
+.paaIcon{
+    font-size: 40px;
+    color:#d5ebeb57 !important;
+
+}
+
+
+.BT{
+    background-color: #446268;
+    /* background-color: black; */
+    margin-top: 15px;
+}
+
+.footerDiv{
+    display:flex;
+    align-items:baseline;
+    justify-content: space-between;
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:40px 10px 20px 10px;
+    border-bottom: 1px solid #ffffff17;
+}
+.divFlex{
+    width:16%;
+    position:relative;
+    padding:0 8px;
+}
+.divFlex1{
+    width:16%;
+    position:relative;
+    padding:0 8px;
+}
+.divFlex::after{
+    content: " ";
+    font-size: 44px;
+    width: 1px;
+    height: 56px;
+    background: #fff;
+    position: absolute;
+    opacity: .24;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%);
+}
+.ValU{
+    text-align: center;
+
+}
+.Val1{
+    margin:8px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pp{
+    color:#9bc3cb;
+}
+.pp1{
+    color:#adc1c65c;
+}
+.pp2{
+    color:#fcfcfcab
+}
+.kit{
+    width:15%;
+}
+.Kit1{
+    width:40%;
+}
+.enter{
+    width:80%;
+    padding:7px 7px;
+    /* border-radius: 5px; */
+    border:none;
+    outline:0
+}
+.IconDivMm{
+    display:flex;
+    align-items: center;
+}
+.enter1{
+    width:20%;
+    padding:7px 7px;
+    border:none;
+    outline:0
+}
+/* .icon_brand_size{
+    color:#d8e8eb;
+    font-size: 22px;
+} */
+.icon_brand_size2{
+    color:#d8e8eb;
+    font-size: 22px;
+}
+.Ferm{
+    margin-left: 6px;
+}
+.Visit{
+    margin:20px 0 8px 0
+}
+.FOOTDIV{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width:100%;
+    max-width: 1000px;
+    margin:0 auto;
+    padding:20px 0;
+}
+ul li{
+list-style: none;
+}
+.Marat{
+    color:#ffffffad;
+    text-align: center;
+    padding:20px 2px;
+    border-top: 1px solid #fefafa1f;
+    width:24%;
+    margin:0 auto;
+}
+.Stay{
+    color:#b4dee6;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.Visit{
+    color:#c8e6eb;
+}
+.EmailUs{
+    color:#b4dee6;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.Tik li a{
+    color:#fff;
+    text-decoration: none;
+}
+.EmailUs{
+    margin-bottom: 10px;
+}

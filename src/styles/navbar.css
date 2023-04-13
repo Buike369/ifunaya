@@ -1,0 +1,100 @@
+
+.Navbarbackgound{
+    /* background-color:#ea84f1c7; */
+    background-color: #fff;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.12);
+}
+.Navbar{
+    width:100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:0 15px;
+ 
+}
+.Navbar1{
+    width:100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:0 15px;
+ 
+}
+.mare{
+    text-align: right;
+}
+.Navbarlist{
+    display:flex;
+    align-items: center;
+   
+    
+}
+.Navbarlist li{
+    list-style: none;
+    font-weight: 500;
+}
+.NavbarSearch{
+    width:100%;
+    max-width: 900px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ceccccdb;
+}
+.search{
+    width:95%;
+    padding:7px;
+    border:none;
+    outline:0;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+   
+}
+.Navbarli{
+  width:10%;
+  
+}
+.icon_brand_size{
+    font-size: 15px;
+}
+.header{
+    padding:8px 0;
+}
+.Navbarli2{
+    width:50%;
+}
+.slepp{
+    justify-content: space-between;
+    padding:8px 0;
+  
+}
+.helip{
+    display:flex;
+    align-items:center;
+    margin-left: 10px;
+}
+.help{
+    text-align: center;
+}
+.spa{
+    margin-left: 5px;
+}
+.slepp li{
+    /* background-color: blueviolet; */
+    padding:6px 0px
+}
+.nabb:hover{
+    color:#00bc8d;
+}
+.NavBack{
+    /* /* background-color:#f24dd29c; */
+        background-color: #fbf7f882; 
+    /* border-top: 1px solid rgb(232, 232, 242); */
+}
+.BtnSearch{
+    padding:7px 8px;
+    outline: 0;
+    border:0;
+    cursor:pointer;
+    width:5%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}

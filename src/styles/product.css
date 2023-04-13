@@ -1,0 +1,173 @@
+
+.DeFa{
+    width:100%;
+    max-width: 1440px;
+    margin:0 auto;
+}
+.ProductDetail{
+    display:flex;
+
+}
+.itemOn{
+    width:70%
+}
+.itemOn1{
+    width:30%;
+}
+.ProductBDetail2{
+    display:flex;
+    gap:20px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding:20px ;
+}
+.ProductBDetail{
+    width:50%;
+}
+.kin{
+    width:100%
+}
+.Summer{
+
+}
+.earnP{
+    margin:10px 0;
+    color:coral;
+    font-weight: 600;
+}
+.MoneyDiv{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    padding:8px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.DivMoney{
+    padding-top: 1px;
+    background-color: #0b5867;
+    border-radius: 6px;
+}
+.deals{
+    color:#fff;
+    font-size: 15px;
+    font-family: 'Alkatra', cursive;
+
+    font-weight: 600;
+    margin:4px 0;
+    text-align: center;
+}
+.CBlack{
+   height:1px ;
+   border:1px solid #eef0f175;
+   margin-bottom: 10px;
+}
+.MoneyDiv1{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 800;
+    margin:6px 6px 8px 6px;
+}
+.MoneyDiv2{
+    font-size: 16px;
+    color:#fff;
+}
+.MoneyDiv3{
+    font-size: 14px;
+    color:gray;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.MoneyDiv4{
+    margin:6px 6px 8px 6px;
+}
+.fadam{
+    display:flex;
+    gap:10px
+}
+.ColorSelection{
+    margin-bottom: 8px;
+
+}
+.vanad{
+    padding:8px 6px;
+    border:1px solid gray;
+    width:40px;
+    height:40px;
+    text-align: center;
+    border-radius: 6px;
+}
+.YTere{
+    display:flex;
+    gap:10px;
+    margin-top: 8px;
+}
+.Sizes{
+    margin-top: 15px;
+}
+.increment{
+    width:20px;
+    height:20px;
+    border:1px solid gray;
+    text-align: center;
+    border-radius: 3px;
+}
+.most{
+    display:flex
+}
+.custome{
+    margin-left: 10px;
+}
+.shipto{
+    margin:15px 0;
+}
+.fee{
+  color:green  ;
+  font-weight: 600;
+  margin: 10px;
+}
+.nowBuy{
+    padding:15px 10px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #098989;
+    
+}
+.BuyWon{
+    display:flex;
+    gap:10px
+}
+.delivery{
+    margin-bottom: 15px;
+}
+.pilicyt{
+    display:flex;
+    gap:20px;
+    padding:0 10px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+}
+.pilicyt2{
+    background-color: #fff;
+    padding:20px 10px;
+    margin-top: 6px;
+}
+.pilicyt1{
+    padding:10px 14px;
+    background-color: indianred;
+    color:#fff;
+    border-radius: 6px;
+}
+.ducts{
+    margin-bottom: 10px;
+}
+.ageOf{
+    padding:0 10px;
+}
+.paddbv{
+    padding:20px 10px  ;
+}
+.sava{
+    width:100% !important;
+    border: 1px solid #eff1f2;
+    border-radius: 6px;
+
+}
