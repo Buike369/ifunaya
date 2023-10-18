@@ -102,7 +102,7 @@ const home = () => {
                   <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/ifunayaShop4.jpeg" alt="" className="spac"/>
+                  <img src="/img/ifunayaShop6.jpeg" alt="" className="spac"/>
                   <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">

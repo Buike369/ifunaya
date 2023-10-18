@@ -201,6 +201,14 @@
         .itemsdivImg{
             height:240px;
         }
+
+                .move4, .move {
+                    background-color: #020306;
+                    border: 1px solid #726624;
+                }
+                .am{
+                    color:#fff !important;
+                }
 .HeaderCarosDiv1{
 width:100%;
 margin-top: 10px;
