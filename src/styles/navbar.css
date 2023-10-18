@@ -1,7 +1,7 @@
 
 .Navbarbackgound{
-    /* background-color:#ea84f1c7; */
-    background-color: #fff;
+   
+    background-color: #020306;
     box-shadow: 0 4px 4px -4px rgba(0,0,0,.12);
 }
 .Navbar{
@@ -24,8 +24,20 @@
 .Navbarlist{
     display:flex;
     align-items: center;
+    justify-content: space-between;
+  
    
     
+}
+.meme{
+    padding:10px 15px;
+    width:100%;
+    border-radius: 5px;
+    outline: 0;
+    border:0
+}
+.meme2{
+    padding:5px 15px;
 }
 .Navbarlist li{
     list-style: none;
@@ -39,7 +51,7 @@
     border: 1px solid #ceccccdb;
 }
 .search{
-    width:95%;
+    width:92%;
     padding:7px;
     border:none;
     outline:0;
@@ -62,13 +74,21 @@
 }
 .slepp{
     justify-content: space-between;
-    padding:8px 0;
+    padding:12px 10px;
+    width: 100%;
+        max-width: 700px;
+        /* color:#4169e1; */
+      
+        margin: 0 auto;
   
 }
 .helip{
     display:flex;
     align-items:center;
     margin-left: 10px;
+}
+.Navbarbackgound{
+
 }
 .help{
     text-align: center;
@@ -80,12 +100,21 @@
     /* background-color: blueviolet; */
     padding:6px 0px
 }
+.nabb{
+    color:gold
+}
 .nabb:hover{
     color:#00bc8d;
 }
+.kinG{
+    padding:10px 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .NavBack{
     /* /* background-color:#f24dd29c; */
-        background-color: #fbf7f882; 
+        background-color: #0a0417d6; 
     /* border-top: 1px solid rgb(232, 232, 242); */
 }
 .BtnSearch{
@@ -93,8 +122,19 @@
     outline: 0;
     border:0;
     cursor:pointer;
-    width:5%;
+    width:8%;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 
+}
+
+@media(max-width:768px){
+    .Navbarbackgound {
+        display: none;
+    }
+}
+@media(min-width:769px){
+    .NavBkin{
+        display:none;
+    }
 }

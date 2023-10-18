@@ -12,8 +12,8 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2 // optional, default to 1.
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -81,44 +81,44 @@ const home = () => {
           </div>
       </div>
 
-      <div className="move">
+      <div className="move move4">
 
           <div>
               <div className="produDiv1">
                   <div className="produDiv">
-                       <img src="/img/load.jpg" alt="" className="spac"/>
-                       <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                       <img src="/img/ifunayaShop.jpeg" alt="" className="spac"/>
+                       <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/load1.jpg" alt="" className="spac"/>
-                  <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                  <img src="/img/ifunayaShop1.jpeg" alt="" className="spac"/>
+                  <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/load2.jpg" alt="" className="spac"/>
-                  <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                  <img src="/img/ifunayaShop2.jpeg" alt="" className="spac"/>
+                  <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/load3.png" alt="" className="spac"/>
-                  <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                  <img src="/img/ifunayaShop3.jpeg" alt="" className="spac"/>
+                  <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/load4.jpg" alt="" className="spac"/>
-                  <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                  <img src="/img/ifunayaShop4.jpeg" alt="" className="spac"/>
+                  <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/load.jpg" alt="" className="spac"/>
-                  <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                  <img src="/img/ifunayaShop5.jpeg" alt="" className="spac"/>
+                  <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
                   <div className="produDiv">
-                  <img src="/img/load3.png" alt="" className="spac"/>
-                  <div className="pay">$3.00 <span className="pay1">$400</span></div>
+                  <img src="/img/ifunayaShop6.jpeg" alt="" className="spac"/>
+                  <div className="pay am">₦3.00 <span className="pay1 pay3">$400</span></div>
                   </div>
               </div>
           </div>
       
       </div>
       <div className="move">
-      <Carousel
+      {/* <Carousel
   swipeable={false}
   draggable={false}
   showDots={false}
@@ -135,34 +135,34 @@ const home = () => {
 //   deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
->
+> */}
           <div>
               <div className="produDiv1">
                   <div className="produDiv3">
-                       <img src="/img/load.jpg" alt="" className="spac2"/>
+                       <img src="/img/ifunayaShop7.jpeg" alt="" className="spac2"/>
                        <div className="DescriptionT">In The Long run  In The Long run In The Long run</div>
-                       <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                       <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load1.jpg" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop8.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
                  
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load2.jpg" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop9.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long runIn The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load3.png" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop10.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load4.jpg" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop11.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   
                  
@@ -171,69 +171,69 @@ const home = () => {
           <div>
               <div className="produDiv1">
                   <div className="produDiv3">
-                       <img src="/img/load1.jpg" alt="" className="spac2"/>
+                       <img src="/img/ifunayaShop12.jpeg" alt="" className="spac2"/>
                        <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                       <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                       <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load2.jpg" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load.jpg" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop1.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load3.png" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop2.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                   <div className="produDiv3">
-                  <img src="/img/load.jpg" alt="" className="spac2"/>
+                  <img src="/img/ifunayaShop3.jpeg" alt="" className="spac2"/>
                   <div className="DescriptionT">In The Long run In The Long run In The Long run</div>
-                  <div className="moneyF">$3.00 <span className="DiscountP">$4.00</span></div>
+                  <div className="moneyF">₦3.00 <span className="DiscountP">$4.00</span></div>
                   </div>
                
                 
               </div>
           </div>
-          </Carousel>
+          {/* </Carousel> */}
       </div>
-      <div className="move">
+      <div className="move move4">
           <div>
               <div className="produDiv1">
                   <div className="myD">
                   <div className="produDiv4">
-                       <img src="/img/load.jpg" alt="" className="spac"/>
-                       <div>$4.00</div>
+                       <img src="/img/ifunayaShop4.jpeg" alt="" className="spac"/>
+                        <div className="pay">₦3.00 </div>
                   </div>
                   <div className="produDiv4">
-                  <img src="/img/load1.jpg" alt="" className="spac"/>
-                  <div>$4.00</div>
+                  <img src="/img/ifunayaShop5.jpeg" alt="" className="spac"/>
+                   <div className="pay">₦3.00 </div>
                   </div>
                   <div className="produDiv4">
-                  <img src="/img/load2.jpg" alt="" className="spac"/>
-                  <div>$6.00</div>
+                  <img src="/img/ifunayaShop6.jpeg" alt="" className="spac"/>
+                 <div className="pay">₦3.00 </div>
 
                   </div>
                   </div>
                   <div className="myD">
                   <div className="produDiv4">
-                  <img src="/img/load3.png" alt="" className="spac"/>
-                  <div>In The Long run</div>
-                  <div>$4.00</div>
+                  <img src="/img/ifunayaShop7.jpeg" alt="" className="spac"/>
+                 
+                   <div className="pay">₦3.00 </div>
                   </div>
                   <div className="produDiv4">
-                  <img src="/img/load4.jpg" alt="" className="spac"/>
-                  <div>In The Long run</div>
-                  <div>$4.00</div>
+                  <img src="/img/ifunayaShop8.jpeg" alt="" className="spac"/>
+                 
+                   <div className="pay">₦3.00</div>
                   </div>
                   <div className="produDiv4">
-                  <img src="/img/load.jpg" alt="" className="spac"/>
-                  <div>In The Long run</div>
-                  <div>$4.00</div>
+                  <img src="/img/ifunayaShop9.jpeg" alt="" className="spac"/>
+                 
+                <div className="pay">₦3.00 </div>
                   </div>
                   </div>
                 
@@ -264,52 +264,148 @@ const home = () => {
       <div className="firstB">
           <div className="itemsdiv">
               <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
+              <img src="/img/ifunayaShop10.jpeg" alt=""   className="itemsdivImg"/>
               </div>
               <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
+              <div className="moneyPo">₦3000.00</div>
               <div>brown yellow slipper</div>
 
           </div>
           <div className="itemsdiv">
               <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
+              <img src="/img/ifunayaShop11.jpeg" alt=""   className="itemsdivImg"/>
               </div>
               <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
+              <div className="moneyPo">₦4500.00</div>
               <div>brown yellow slipper</div>
 
           </div>
           <div className="itemsdiv">
               <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
+              <img src="/img/What.jpeg" alt=""   className="itemsdivImg"/>
               </div>
               <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
+              <div className="moneyPo">₦3000.00</div>
               <div>brown yellow slipper</div>
 
           </div>
           <div className="itemsdiv">
               <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
+              <img src="/img/ifunayaShop.jpeg" alt=""   className="itemsdivImg"/>
               </div>
               <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
+              <div className="moneyPo">₦400.00</div>
               <div>brown yellow slipper</div>
 
           </div>
           <div className="itemsdiv">
               <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
+              <img src="/img/ifunayaShop1.jpeg" alt=""   className="itemsdivImg"/>
               </div>
               <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
+              <div className="moneyPo">₦4500.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+
+    
+    
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop2.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop3.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop11.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/What.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦3000.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop9.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+
+      
+    
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop5.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop6.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop7.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop8.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
+              <div>brown yellow slipper</div>
+
+          </div>
+          <div className="itemsdiv">
+              <div className="itemsDv">
+              <img src="/img/ifunayaShop9.jpeg" alt=""   className="itemsdivImg"/>
+              </div>
+              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
+              <div className="moneyPo">₦400.00</div>
               <div>brown yellow slipper</div>
 
           </div>
 
       </div>
-      <div className="firstB">
+      {/* <div className="firstB">
           <div className="itemsdiv">
               <div className="itemsDv">
               <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
@@ -356,103 +452,7 @@ const home = () => {
 
           </div>
 
-      </div>
-      <div className="firstB">
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-
-      </div>
-      <div className="firstB">
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-          <div className="itemsdiv">
-              <div className="itemsDv">
-              <img src="/img/yee.jpg" alt=""   className="itemsdivImg"/>
-              </div>
-              <div className="browm"> Brown yellow slipper Brown yellow slipper Brown yellow slipper </div>
-              <div className="moneyPo">$400.00</div>
-              <div>brown yellow slipper</div>
-
-          </div>
-
-      </div>
+      </div> */}
 
 
 
